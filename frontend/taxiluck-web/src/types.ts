@@ -5,6 +5,7 @@ export interface TLIResult {
     time: string; // HH:MM:SS
     avg_distance: number; // miles
     avg_cost: number; // USD
+    ci_score: number;
 }
 
 export interface AnalysisResponse {

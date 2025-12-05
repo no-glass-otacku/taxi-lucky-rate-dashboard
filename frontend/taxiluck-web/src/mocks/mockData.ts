@@ -7,7 +7,7 @@ export const MOCK_ANALYSIS_RESPONSE: AnalysisResponse = {
         avg_duration: 15.5,
         std_duration: 2.1,
         time: '14:30:00',
-        avg_distance: 12.5,
+        avg_distance: 12.8,
         avg_cost: 15.70
     },
     nearest_past: [

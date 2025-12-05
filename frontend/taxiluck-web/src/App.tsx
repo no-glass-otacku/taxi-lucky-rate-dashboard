@@ -30,10 +30,10 @@ const App: React.FC = () => {
     }
   }, [puBorough, doBorough, timeInput]);
 
-  // 최초 로드 시 분석 실행
-  useEffect(() => {
-    fetchAnalysis();
-  }, [fetchAnalysis]);
+  // 최초 로드 시 분석 실행 (Optional: 원하지 않으면 제거 가능)
+  // useEffect(() => {
+  //   fetchAnalysis();
+  // }, [fetchAnalysis]);
 
   const currentMatch = analysisData?.current_match;
 

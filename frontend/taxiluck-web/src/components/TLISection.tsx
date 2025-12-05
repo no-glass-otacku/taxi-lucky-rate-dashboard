@@ -80,7 +80,7 @@ const TLISection: React.FC<TLISectionProps> = ({ currentMatch }) => {
                             <path className="text-orange-500" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" strokeDasharray="45, 100" strokeLinecap="round" strokeWidth="3"></path>
                         </svg>
                         <div className="absolute inset-0 flex flex-col items-center justify-center">
-                            <span className="text-4xl font-extrabold text-orange-500">0.45</span>
+                            <span className="text-4xl font-extrabold text-orange-500">{currentMatch.ci_score.toFixed(2)}</span>
                             <span className="text-sm text-text-light-secondary dark:text-text-dark-secondary">CI Score</span>
                         </div>
                     </div>
